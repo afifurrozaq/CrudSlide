@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Nim"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginTop="118dp"
+        android:id="@+id/nim" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Nama"
+        android:ems="10"
+        android:layout_below="@+id/nim"
+        android:layout_alignEnd="@+id/nim"
+        android:layout_marginTop="41dp"
+        android:id="@+id/nama" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Mata Kuliah"
+        android:ems="10"
+        android:layout_below="@+id/nama"
+        android:layout_alignEnd="@+id/nama"
+        android:layout_marginTop="41dp"
+        android:id="@+id/editText3" />
+
+    <Button
+        android:text="SUBMIT"
+        android:theme="@style/AppTheme.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="32dp"
+        android:id="@+id/button"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_alignEnd="@+id/editText3" />
+
+    <TextView
+        android:text="INSERT DATA MAHASISWA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nim"
+        android:layout_marginStart="21dp" />
+
+</RelativeLayout>
